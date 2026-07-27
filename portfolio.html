@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit's Simple Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">Rohit.M</div>
+            <div class="nav-links">
+                <button type="button">About</button>
+                <button type="button">Projects</button>
+                <button type="button">Contact</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero section">
+            <h1>Welcome to my simple page</h1>
+            <p>This page now uses a clean beginner-friendly layout with easy-to-read styling.</p>
+        </section>
+
+        <section class="section">
+            <h2>My Details</h2>
+            <ol>
+                <li>Name: Rohit Madupoju</li>
+                <li>Qualification: Degree (BCA)</li>
+            </ol>
+        </section>
+
+        <section class="section">
+            <h2>Skills</h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ol>
+        </section>
+
+        <section class="section">
+            <h2>Contact Me</h2>
+            <p>Please fill out the simple form below.</p>
+
+            <form class="contact-form" action="">
+                <label for="name">Name:</label>
+                <input id="name" type="text" placeholder="Your name">
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="your@email.com">
+
+                <fieldset>
+                    <legend>Choose your gender</legend>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Select your interests</legend>
+                    <label><input type="checkbox" name="interest" value="coding"> Coding</label>
+                    <label><input type="checkbox" name="interest" value="reading"> Reading</label>
+                </fieldset>
+
+                <label for="bio">Bio (up to 200 characters):</label>
+                <textarea id="bio" rows="4" placeholder="Tell me a little about yourself"></textarea>
+
+                <div class="form-actions">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Thank you for visiting. Simple layouts are great for learning.</p>
+        </div>
+    </footer>
+</body>
+</html>

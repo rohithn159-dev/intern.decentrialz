@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beginner AI Website</title>
+  <link rel="stylesheet" href="ai_web.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>Beginner AI Website</h1>
+      <p>Explore a simple AI-style web app with buttons and instant responses.</p>
+    </header>
+
+    <main class="card">
+      <section class="input-area">
+        <label for="userPrompt">Ask the AI a question:</label>
+        <input id="userPrompt" type="text" placeholder="Type something like 'Tell me a fun fact'" />
+        <div class="button-row">
+          <button id="generateBtn">Generate Answer</button>
+          <button id="poemBtn">Create a Poem</button>
+          <button id="moodBtn">Analyze Mood</button>
+          <button id="surpriseBtn">Surprise Me</button>
+        </div>
+      </section>
+
+      <section class="output-area">
+        <h2>AI Output</h2>
+        <div id="result" class="result-box">I am ready to help! Choose a button.</div>
+      </section>
+
+      <section class="info-grid">
+        <div class="info-card">
+          <h3>Beginner Friendly</h3>
+          <p>This website is designed for beginners to learn how to create simple AI-like interactions.</p>
+          
+        </div>
+        <div class="info-card">
+          <h3>How it Works</h3>
+          <p>Buttons run simple JavaScript logic to display AI-like responses instantly.</p>
+        </div>
+        <div class="info-card">
+          <h3>Customize</h3>
+          <p>Edit <strong>script.js</strong> to add your own AI replies and ideas.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="ai_web.js"></script>
+</body>
+</html>

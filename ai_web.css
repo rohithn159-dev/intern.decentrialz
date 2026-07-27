@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at top, #9be2fe 0%, #5c6ef5 55%, #1f276a 100%);
+  color: #f8f9ff;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+}
+
+.hero p {
+  margin: 10px auto 0;
+  max-width: 700px;
+  color: #d8e3ff;
+}
+
+.card {
+  max-width: 980px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 24px;
+  padding: 24px;
+  backdrop-filter: blur(16px);
+}
+
+.input-area,
+.output-area {
+  margin-bottom: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  min-height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 12px 14px;
+  font-size: 1rem;
+  color: #0f172a;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+button {
+  flex: 1 1 180px;
+  min-width: 140px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.18s ease, background-color 0.18s ease;
+  background: linear-gradient(135deg, #6ee7b7, #38bdf8);
+  color: #08233b;
+  font-weight: 700;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #7dd3fc, #22d3ee);
+}
+
+.output-area h2 {
+  margin-bottom: 12px;
+}
+
+.result-box {
+  min-height: 140px;
+  padding: 18px;
+  border-radius: 18px;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  line-height: 1.7;
+}
+
+.info-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.info-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.info-card h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 520px) {
+  .button-row {
+    flex-direction: column;
+  }
+}
