@@ -473,7 +473,7 @@ Pass data/functions between components.
 <TodoItem
   todo={todo}
   onDelete={deleteTodo}
-/>
+/>*/
 
 
 
