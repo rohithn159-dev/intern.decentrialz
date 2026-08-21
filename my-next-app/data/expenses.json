@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1787299701329,
+    "title": "Lunch",
+    "amount": 323,
+    "category": "Food",
+    "date": "2026-08-22"
+  },
+  {
+    "id": 1787300517500,
+    "title": "Dinner",
+    "amount": 327,
+    "category": "Food",
+    "date": "2026-08-22"
+  },
+  {
+    "id": 1787300552646,
+    "title": "Weak end",
+    "amount": 500,
+    "category": "Travel",
+    "date": "2026-08-28"
+  }
+]
